@@ -5,4 +5,4 @@
  *
  * @type {angular.Module}
  */
-angular.module('todomvc', []);
+angular.module('todomvc', ['firebase']);

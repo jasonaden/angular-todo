@@ -10,6 +10,8 @@ angular.module('todomvc')
 		'use strict';
 
 		var todos = $scope.todos = store.todos;
+    
+    store.get();
 
 		$scope.newTodo = '';
 		$scope.editedTodo = null;
